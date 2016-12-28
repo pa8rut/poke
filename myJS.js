@@ -1,7 +1,7 @@
 $("#myButton").click(function(){
-  var myInput = $("#myInput").val();
+  var myIn = $("#myInput").val();
   
-  var myURL = "https://pokeapi.co/api/v2/pokemon/" + myInput + "/";
+  var myURL = "https://pokeapi.co/api/v2/pokemon/" + myIn + "/";
   
   $.ajax({
     method: "GET",
