@@ -7,7 +7,9 @@ $("#myButton").click(function(){
     method: "GET",
     url: "myURL",
     success: function(data){
+      $("#poke-name").html(data.name);
       
+      $("#poke-img").attr("src", data.sprites.front_default);
     };
   });
 });
