@@ -5,7 +5,7 @@ $("#myButton").click(function(){
   
   $.ajax({
     method: "GET",
-    url: "myURL",
+    url: myURL,
     success: function(data){
       $("#poke-name").html(data.name);
       
