@@ -10,6 +10,6 @@ $("#myButton").click(function(){
       $("#poke-name").html(data.name);
       
       $("#poke-img").attr("src", data.sprites.front_default);
-    };
+    }
   });
 });
