@@ -6,6 +6,8 @@ $("#myButton").click(function(){
   $.ajax({
     method: "GET",
     url: "myURL",
-    success: function(data);
+    success: function(data){
+      
+    };
   });
 });
